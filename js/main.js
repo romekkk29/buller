@@ -197,7 +197,7 @@ function escribirHTML() {
     
 }
 
-let cont=0;
+let cont=1;
  
 let atras=document.querySelector("#izquierda");
 atras.addEventListener("click",function(e){
