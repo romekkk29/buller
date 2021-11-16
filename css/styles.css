@@ -412,6 +412,9 @@ a:active{
        height: 300px;
        width: 300px;
     }
+    .haceNone{
+        display: none;
+    }
 
 }
 @media all and (max-width:400px){

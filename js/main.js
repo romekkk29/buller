@@ -144,14 +144,14 @@ function escribirHTML() {
     <p>Elaboramos cerveza bajo las más antiguas tradiciones pero con la tecnología y el gusto actual.</p>
     <p>Desarrollamos todas nuestras variedades respetando los tiempos, procesos y temperamento propio de cada variedad para lograr el sabor único que hoy es nuestro sello diferencial.
     </p>
-    <br>
-    <br>
-    <br>
-    <br>
+    <br >
+    <br class="haceNone">
+    <br class="haceNone">
+    <br class="haceNone">
 
     <img id="boy" src="img/boy.png">
    
-    <br><br><br><br>
+    <br class="haceNone"><br class="haceNone"><br><br>
      </div>
 
 
