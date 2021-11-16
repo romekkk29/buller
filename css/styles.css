@@ -1,0 +1,489 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Poppins:wght@600&display=swap');
+
+*{
+    margin:0 auto;
+    box-sizing: border-box;
+    
+}
+header{
+    background-image: url("../img/I.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+   position: relative;
+    height: 750px;
+
+}
+.menu-bar{
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    background-color: #191919;
+    Height: 81px;
+    width: 100%;
+}
+.menu-bar p{
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.4);
+}
+.menu-bar ul{
+ margin:0px;
+ padding: 0px;
+ width: 100%;
+ display: flex ;
+ justify-content: space-between;
+}
+.menu-bar a{
+    margin: 0px auto;
+    padding: 0px 10px;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-bar li{
+    margin:0px;
+    display:flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+    background-color:rgba(0, 0, 0, 0.3) ;
+}
+a{
+    text-decoration: none;
+
+}
+.hr1{
+    background-color:rgba(255, 255, 255, 0.5);
+    border: none;
+    width: 1px;
+    height: 94px;
+   
+}
+.hr2{
+    background-color:rgba(255, 255, 255, 0.5);
+    border: none;
+    height: 1px;
+}
+.logo{
+    margin: 0;
+}
+.texto{
+    background-color: white;
+    position: absolute;
+    height: 336px ;
+    Width: 680px;
+    bottom: 81px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.texto p{
+    font-family: "Noto Serif", sans-serif;
+    Font-size: 36px;
+    line-height: 49px;
+    
+    vertical-align: Top;
+    padding: 40px 96px 100px 40px;
+}
+.texto a{
+    position: absolute;
+    left: 40px;
+    bottom:10%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    Font-size: 18px;
+    Line-height: 27px;
+    
+     color: #827264;
+     text-decoration:underline;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px 15px;
+ 
+}
+.carta{
+    display: flex;
+
+}
+.carta a{
+   padding:10px;
+   margin: 0px 15px;
+}
+ul p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+}
+li{
+    margin: 20px;
+}
+.logo{
+    width: 244px;
+    height: 94px;
+    padding: 32px;
+}
+.carrito{
+    width: 30px;
+    height: 26px;
+}
+.whatsapp{
+    width: 24px;
+    height: 24px;
+}
+.instagram{
+    width:24px ;
+    height:24px ;
+}
+.facebook{
+    width: 10,12px;
+    height:18,77px; 
+}
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+.sobreNosotros1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.sobreNosotros1 p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    Font-size: 20px;
+   Line-height: 30px;
+   color: white;
+   margin:10px 35px;
+}
+.sobreNosotros1 img{
+    margin:10px;
+    width: 90%;
+}
+#ponerNegrita{
+    font-weight: bold;
+    Font-family: "Noto Serif", sans-serif;
+    Font-size: 30px;
+    Line-height: 41px;
+
+}
+.sobreNosotros2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.sobreNosotros2 img{
+    margin:18px;
+
+}
+#beer{
+    width: 680px;
+    height: 610px;
+    margin: 0px 20px;
+}
+.beers{
+    width: 680x;
+    height: 620px;
+}
+#boy{
+    width: 626x;
+    height: 924px;
+}
+main{
+    background-color: #6B5746;
+}
+footer{
+    background-color: #574332;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+footer p{
+    font-family: "Poppins", sans-serif;
+     text-align: center;
+     Font-size: 16px;
+     Line-height: 24px;
+     color: white;
+    
+}
+a:hover{
+    opacity: 0.8;
+}
+a:active{
+    text-decoration: underline;
+    color: white;
+}
+.hrSobre{
+    background-color:rgba(255, 255, 255, 0.5);
+    border: none;
+    height: 1px;
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 27%;
+}
+.hrBienvenido{
+    background-color:rgba(255, 255, 255, 0.5);
+    border: none;
+    height: 1px;
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 4%;
+}
+.hrFranquicia{
+    background-color:rgba(255, 255, 255, 0.5);
+    border: none;
+    height: 1px;
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 52%;
+}
+.hrExperiencia{
+    background-color:rgba(255, 255, 255, 0.5);
+    border: none;
+    height: 1px;
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 77%;
+}
+.hr3{
+    
+    display: none;
+}
+#boy2{
+    display: none;
+}
+.botones{
+    position: absolute;
+    bottom: 173px;
+    left: 0px;
+    display: none;
+}
+
+@media all and (min-width:1800px) {
+    .top img{
+        margin: 0 auto;
+    }
+    .top nav{
+        margin: 0 auto;
+    }
+    main{
+        width: 80%;
+    }
+    body{
+        background-color: #6B5746; ;
+    }
+    .menu-bar{
+        width: 80%;
+        left: 10%;
+    }
+    .texto{
+        left: 10%;
+    }
+    
+}
+@media all and (max-width:1300px) {
+    main{
+        
+        flex-direction: column;
+        
+    }
+    
+    
+}
+@media all and (max-width:750px) {
+ .texto{
+     width: 100%;
+     position: absolute;
+     height: 336px ;
+     bottom: -160px;
+ }
+ .texto p {
+    Font-size: 28px;
+    Line-height: 38px;
+ }
+ .menu-bar{
+     display: none;
+ }
+ .sobreNosotros2{
+     display: none;
+ }
+ main{
+    position: absolute;
+   
+    top: 920px;
+
+ }
+ 
+ footer{
+     position: absolute;
+     bottom:-1200px;
+ }
+ .botones{
+     display: block;
+ }
+ 
+ 
+    
+}
+@media all and (max-width:945px){
+    .carta{
+        position: absolute;
+        left: 3%;
+        top: 90px;
+        z-index: 123123123123;
+    }
+    .carta a{
+       padding:10px;
+       margin: 0px auto    ;
+    }
+    .carrito{
+       position: absolute;
+       right: 3%;
+       top: 110px;
+       z-index: 123123123123;
+   
+    }
+    .hr1{
+        display: none;
+    }
+    .top ul{
+        padding: 0px;
+        margin: 0px;
+    }
+    li{
+       margin: 10px;
+   }
+   .logo{
+       width: 160px;
+       padding: 32px 5px;
+   }
+   .hr2{
+       position: absolute;
+       top:85px;
+     width: 100%;
+   }
+   .hr3{
+       display: block;
+       position: absolute;
+       top:150px;
+       background-color:rgba(255, 255, 255, 0.5);
+       border: none;
+       height: 1px;
+       width: 100%;
+   }
+   .top{
+   height: 85px;
+   }
+   .nada{
+       height: 65px;
+       background-color: rgba(0, 0, 0, 0.15);
+   }
+   .sobreNosotros1{
+       width: 100%;
+   }
+   #boy{
+       display: none;
+   }
+   #boy2{
+       display: block;
+       height: 300px;
+       width: 300px;
+    }
+
+}
+@media all and (max-width:400px){
+    .texto a{
+        bottom: 2%;
+    }
+}
+@media all and (max-width:350px){
+    .texto a{
+        display: none;
+    }
+}
+@media all and (min-width:693px){
+    .ja{
+        display: none;
+    }
+}
+@media all and (max-width:693px){
+    footer{
+        bottom:-1200px;
+        height: 103px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+    footer p{
+        Font-size: 14px;
+        Line-height: 21px;
+        font-weight: 400;
+    }
+    .jaja{
+        display: none;
+    }
+    .sobreNosotros1 p{
+        Font-size: 14px;
+        Line-height: 21px;
+        font-weight: 400;
+    }
+}
+
+
+
+@media all and (max-width:420px){
+    footer{
+        bottom:-1310px;
+    }
+}
+
+
+
+@media all and (max-width:400px){
+    footer{
+        bottom:-1340px;
+    }
+}
+
+@media all and (max-width:370px){
+    footer{
+        bottom:-1410px;
+    }
+}
+@media all and (max-width:350px){
+    footer{
+        bottom:-1470px;
+    }
+}
+@media all and (max-width:330px){
+    footer{
+        bottom: -1500px;
+    }
+}
