@@ -326,6 +326,7 @@ a:active{
     Font-size: 28px;
     Line-height: 38px;
  }
+
  .menu-bar{
      display: none;
  }
@@ -418,7 +419,7 @@ a:active{
 }
 @media all and (max-width:400px){
     .texto a{
-        bottom: 2%;
+        bottom: 1%;
     }
 }
 @media all and (max-width:350px){
