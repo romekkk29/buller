@@ -155,7 +155,7 @@ li{
     width: 10,12px;
     height:18,77px; 
 }
-main{
+.main{
     display: flex;
     justify-content: center;
     
@@ -291,7 +291,7 @@ a:active{
     .top nav{
         margin: 0 auto;
     }
-    main{
+    .main{
         width: 80%;
     }
     body{
@@ -307,7 +307,7 @@ a:active{
     
 }
 @media all and (max-width:1300px) {
-    main{
+    .main{
         
         flex-direction: column;
         
@@ -340,10 +340,7 @@ a:active{
 
  }
  
- footer{
-     position: absolute;
-     bottom:-1200px;
- }
+ 
  .botones{
      display: block;
  }
@@ -434,7 +431,7 @@ a:active{
 }
 @media all and (max-width:693px){
     footer{
-        bottom:-1200px;
+        
         height: 103px;
         width: 100%;
         display: flex;
@@ -457,34 +454,6 @@ a:active{
     }
 }
 
-
-
-@media all and (max-width:420px){
-    footer{
-        bottom:-1310px;
-    }
-}
-
-
-
-@media all and (max-width:400px){
-    footer{
-        bottom:-1340px;
-    }
-}
-
-@media all and (max-width:370px){
-    footer{
-        bottom:-1410px;
-    }
-}
-@media all and (max-width:350px){
-    footer{
-        bottom:-1470px;
-    }
-}
-@media all and (max-width:330px){
-    footer{
-        bottom: -1500px;
-    }
+#foot{
+    width: 100%;
 }
