@@ -361,10 +361,10 @@ a:active{
        padding:10px;
        margin: 0px auto    ;
     }
-    .carrito{
+    .carrito2{
        position: absolute;
        right: 3%;
-       top: 110px;
+       top: 98px;
        z-index: 123123123123;
    
     }
