@@ -186,18 +186,12 @@ li{
     Line-height: 41px;
 
 }
-.sobreNosotros2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 50%;
-}
 .sobreNosotros2 img{
-    margin:18px;
-
+    margin:10px;
+    width: 90%;
 }
-#beer{
+
+.beer{
     width: 680px;
     height: 610px;
     margin: 0px 20px;
@@ -209,6 +203,20 @@ li{
 #boy{
     width: 626x;
     height: 924px;
+}
+.sobreNosotros2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+   
+}
+.sobreNosotros2 img{
+
+    margin:18px;
+
 }
 main{
     background-color: #6B5746;
@@ -306,13 +314,27 @@ a:active{
     }
     
 }
-@media all and (max-width:1300px) {
+@media all and (max-width:1200px) {
     .main{
         
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         
     }
-    
+    .main{
+        margin:0px;
+    }
+
+    .sobreNosotros1{
+        margin:0px;
+        width: 70%;
+
+    }
+    .sobreNosotros2{
+        margin:0px;
+        width: 70%;
+    }
     
 }
 @media all and (max-width:750px) {
@@ -330,13 +352,16 @@ a:active{
  .menu-bar{
      display: none;
  }
+ .hr{
+    display: none;
+}
  .sobreNosotros2{
      display: none;
  }
  main{
     position: absolute;
    
-    top: 920px;
+    top: 780px;
 
  }
  
@@ -415,11 +440,19 @@ a:active{
     .haceNone{
         display: none;
     }
+    .texto a{
+        bottom: 0px;
+    }
+    .textp{
+        padding: 30px 20px 110px 20px;
+    }
+    
+    
 
 }
 @media all and (max-width:400px){
     .texto a{
-        bottom: 1%;
+        bottom: 0px;
     }
 }
 @media all and (max-width:350px){
@@ -433,6 +466,19 @@ a:active{
     }
 }
 @media all and (max-width:693px){
+    header{
+        height: 780px;
+        background-size: 900px;
+        background-position:top;
+    }
+    .botones{
+        bottom: 420px;
+    }
+    .texto{
+        bottom: 60px;
+        height: 330px;
+        padding: 0px;
+    }
     footer{
         
         height: 103px;

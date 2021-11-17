@@ -168,7 +168,7 @@ function escribirHTML() {
     
      <img class="beers" src="img/beers.png">
      <br>
-     <img id="beer" src="img/beer.png">
+     <img class="beer" src="img/beer.png">
      <br><br><br><br>
      </div>
     
