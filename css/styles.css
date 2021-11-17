@@ -337,6 +337,12 @@ a:active{
     }
     
 }
+@media all and (max-width:500px){
+    
+    main{
+        top: 700px;}
+
+}
 @media all and (max-width:750px) {
  .texto{
      width: 100%;
@@ -364,6 +370,17 @@ a:active{
     top: 780px;
 
  }
+ header{
+    height: 780px;
+    background-size: 900px;
+    background-position:top;
+}
+.botones{
+    bottom: 420px;
+}
+.texto{
+    bottom:70px;
+}
  
  
  .botones{
@@ -373,6 +390,16 @@ a:active{
  
     
 }
+@media all and (max-width:700px){
+    
+    main{
+        top: 700px;}
+    .texto a {
+        bottom: 20px;
+    }
+
+}
+
 @media all and (max-width:945px){
     .carta{
         position: absolute;
@@ -404,6 +431,8 @@ a:active{
    .logo{
        width: 160px;
        padding: 32px 5px;
+       position: relative;
+       left:5%;
    }
    .hr2{
        position: absolute;
@@ -440,9 +469,7 @@ a:active{
     .haceNone{
         display: none;
     }
-    .texto a{
-        bottom: 0px;
-    }
+
     .texto p{
         padding: 30px 40px 110px 30px;
     }
@@ -450,12 +477,18 @@ a:active{
     
 
 }
+@media all and (min-width:450px){
+    .texto p{
+        padding: 50px 40px 50px 30px;
+        Line-height: 50px;
+    }
+}
 @media all and (max-width:400px){
     .texto a{
         bottom: 0px;
     }
 }
-@media all and (max-width:350px){
+@media all and (max-width:330px){
     .texto a{
         display: none;
     }
@@ -466,21 +499,14 @@ a:active{
     }
 }
 @media all and (max-width:693px){
-    header{
-        height: 780px;
-        background-size: 900px;
-        background-position:top;
-    }
-    .botones{
-        bottom: 420px;
-    }
+    
     .texto{
         bottom: 88px;
         height: 330px;
         padding: 0px;
     }
     .texto a{
-        bottom: -20px;
+        bottom: 20px;
     }
     footer{
         
