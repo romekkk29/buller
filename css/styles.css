@@ -475,9 +475,12 @@ a:active{
         bottom: 420px;
     }
     .texto{
-        bottom: 60px;
+        bottom: 88px;
         height: 330px;
         padding: 0px;
+    }
+    .texto a{
+        bottom: -20px;
     }
     footer{
         
